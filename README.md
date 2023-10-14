@@ -31,7 +31,7 @@ yarn entity | npx hygen entity new
 yarn widget | npx hygen widget new
 ```
 
-### This just generates named folders with index.ts files and model \ api folders if you wish
+This just generates named folders(ui, api, model) with index.ts file
 
 ## Development Server
 
