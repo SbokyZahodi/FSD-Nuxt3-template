@@ -24,11 +24,11 @@ npx taze major -w
 ## Hygen commands examples 
 
 ```bash
-yarn feature
+yarn feature | npx hygen feature new
 
-yarn entity
+yarn entity | npx hygen entity new
 
-yarn widget   
+yarn widget | npx hygen widget new
 ```
 
 ### This just generates named folders with index.ts files and model \ api folders if you wish
