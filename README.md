@@ -39,7 +39,8 @@ Will generate these files
      model/
         index.ts
      ui/
-        HelloWorld.vue  
+        HelloWorld.vue 
+        index.ts 
     index.ts
 ```
 
