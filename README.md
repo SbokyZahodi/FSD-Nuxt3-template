@@ -1,4 +1,4 @@
-# Nuxt 3 + FSD + UnoCSS + FSD
+# Nuxt 3 + FSD + UnoCSS
 
 Template for development on Nuxt 3 in the Feature-Slised Design architecture
 
