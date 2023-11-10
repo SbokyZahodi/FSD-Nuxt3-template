@@ -1,4 +1,4 @@
 ---
-to: "<%= model ? `features/${path}/model/index.ts` : null %>"
+to: features/<%= path %>/model/index.ts
 ---
 export { }

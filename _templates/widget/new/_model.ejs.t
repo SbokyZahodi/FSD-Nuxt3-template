@@ -1,4 +1,4 @@
 ---
-to: "<%= model ? `widgets/${path}/model/index.ts` : null %>"
+to: widgets/<%= path %>/model/index.ts
 ---
 export { }

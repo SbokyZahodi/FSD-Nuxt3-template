@@ -1,4 +1,4 @@
 ---
-to: "<%= model ? `entities/${path}/model/index.ts` : null %>"
+to: entities/<%= path %>/model/index.ts
 ---
 export { }

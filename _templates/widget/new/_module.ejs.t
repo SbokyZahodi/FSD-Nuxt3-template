@@ -3,5 +3,5 @@ to: widgets/<%= path %>/index.ts
 ---
 
 export * from './ui'
-<%- model ? "export * from './model'" : null %>
-<%- api ? "export * from './api'" : null %>
+export * from './model'
+export * from './api'

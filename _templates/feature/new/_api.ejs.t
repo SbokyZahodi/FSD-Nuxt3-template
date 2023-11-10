@@ -1,4 +1,4 @@
 ---
-to: "<%= api ? `features/${path}/api/index.ts` : null %>"
+to: features/<%= path %>/api/index.ts
 ---
 export { }

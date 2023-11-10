@@ -14,24 +14,35 @@ Template for development on Nuxt 3 in the Feature-Slised Design architecture
 
 ✅ ESLint (Preset by @antfu) 
 
-#
-> Before development, it is recommended to update all dependencies in the project via taze
-```
-npx taze major -w
-```
 
 
 ## Hygen commands examples 
 
 ```bash
-yarn feature | npx hygen feature new
+yarn feature <name> | npm run feature <name>
 
-yarn entity | npx hygen entity new
+yarn entity <name> | npm run entity new <name>
 
-yarn widget | npx hygen widget new
+yarn widget <name> | npm run widget new <name>
 ```
 
-This just generates named folders(ui, api, model) with index.ts file
+## Example
+```bash
+yarn feature HelloWorld
+```
+
+Will generate these files
+```bash
+  ~ features/HelloWorld/
+     api/
+        index.ts
+     model/
+        index.ts
+     ui/
+        HelloWorld.vue  
+    index.ts
+```
+
 
 ## Development Server
 
@@ -76,4 +87,4 @@ pnpm run preview
 yarn preview
 ```
 
-[![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config) [![built with Codeium](https://codeium.com/badges/main)](https://codeium.com)
+[![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)

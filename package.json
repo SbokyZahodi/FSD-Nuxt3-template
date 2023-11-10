@@ -1,5 +1,6 @@
 {
   "name": "nuxt-app",
+  "type": "module",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -9,21 +10,22 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "feature": "npx hygen feature new ",
-    "widget": "npx hygen widget new ",
-    "entity": "npx hygen entity new "
+    "feature": "npx hygen feature new --path ",
+    "widget": "npx hygen widget new --path ",
+    "entity": "npx hygen entity new --path "
   },
   "dependencies": {
-    "@unocss/reset": "^0.56.5"
+    "@unocss/reset": "^0.57.3"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^1.0.0-beta.27",
+    "@antfu/eslint-config": "^1.1.0",
     "@nuxt/devtools": "latest",
-    "@unocss/nuxt": "^0.56.5",
-    "@unocss/transformer-directives": "^0.56.5",
-    "@unocss/transformer-variant-group": "^0.56.5",
-    "eslint": "^8.51.0",
-    "nuxt": "^3.7.4",
+    "@unocss/eslint-config": "^0.57.3",
+    "@unocss/nuxt": "^0.57.3",
+    "@unocss/transformer-directives": "^0.57.3",
+    "@unocss/transformer-variant-group": "^0.57.3",
+    "eslint": "^8.53.0",
+    "nuxt": "^3.8.1",
     "typescript": "^5.2.2"
   }
 }

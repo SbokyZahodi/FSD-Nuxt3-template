@@ -1,4 +1,4 @@
 ---
-to: "<%= api ? `entities/${path}/api/index.ts` : null %>"
+to: entities/<%= path %>/api/index.ts
 ---
 export { }
