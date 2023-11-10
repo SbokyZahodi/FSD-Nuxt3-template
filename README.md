@@ -88,4 +88,5 @@ pnpm run preview
 yarn preview
 ```
 
-[![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config) [![Feature-Sliced Design][shields-fsd-image]](https://feature-sliced.design/)
+[![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
+
