@@ -1,0 +1,1 @@
+<!-- Base route page like "pages" -->

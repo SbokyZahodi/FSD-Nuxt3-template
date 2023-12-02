@@ -12,6 +12,10 @@ export default defineNuxtConfig({
     ],
   },
 
+  dir: {
+    pages: 'routes',
+  },
+
   components: {
     dirs: [
       {
