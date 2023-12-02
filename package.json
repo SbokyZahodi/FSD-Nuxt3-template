@@ -12,7 +12,8 @@
     "lint:fix": "eslint . --fix",
     "feature": "npx hygen feature new --path ",
     "widget": "npx hygen widget new --path ",
-    "entity": "npx hygen entity new --path "
+    "entity": "npx hygen entity new --path ",
+    "page": "npx hygen page new --path "
   },
   "dependencies": {
     "@unocss/reset": "^0.57.3"
