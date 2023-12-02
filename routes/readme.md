@@ -1,1 +1,1 @@
-<!-- Base route page like "pages" -->
+Base router folder like "pages"
