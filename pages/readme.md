@@ -1,1 +1,1 @@
-<!-- FSD slices  -->
+FSD pages slices
