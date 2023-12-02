@@ -24,6 +24,8 @@ yarn feature <name> | npm run feature <name>
 yarn entity <name> | npm run entity <name>
 
 yarn widget <name> | npm run widget <name>
+
+yarn page <name> | npm run page <name>
 ```
 
 ## Example
