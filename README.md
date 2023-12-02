@@ -21,9 +21,9 @@ Template for development on Nuxt 3 in the Feature-Sliced Design architecture
 ```bash
 yarn feature <name> | npm run feature <name>
 
-yarn entity <name> | npm run entity new <name>
+yarn entity <name> | npm run entity <name>
 
-yarn widget <name> | npm run widget new <name>
+yarn widget <name> | npm run widget <name>
 ```
 
 ## Example
