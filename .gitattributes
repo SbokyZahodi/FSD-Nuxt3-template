@@ -1,0 +1,17 @@
+# All
+* text=auto
+*.* text eol=lf
+
+# Images
+*.gif binary
+*.ico binary
+*.jpg binary
+*.png binary
+*.webp binary
+*.svg eol=lf encoding=UTF-8
+
+# Fonts
+*.eot binary
+*.otf binary
+*.ttf binary
+*.woff binary
