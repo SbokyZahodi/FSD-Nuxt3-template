@@ -35,5 +35,10 @@
     "json",
     "jsonc",
     "yaml"
-  ]
+  ],
+
+  // Hide _template folder for better ui experience
+  "files.exclude": {
+    "_templates": true
+  }
 }
