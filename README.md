@@ -16,7 +16,7 @@ Template for development on Nuxt 3 in the Feature-Sliced Design architecture
 
 
 
-## Hygen commands examples 
+## Hygen commands
 
 ```bash
 yarn feature <name> | npm run feature <name>
