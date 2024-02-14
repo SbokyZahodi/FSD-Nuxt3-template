@@ -14,9 +14,9 @@ Template for development on Nuxt 3 in the Feature-Sliced Design architecture
 
 ## Developer Experience
 
-* `FSD Slices Generator` — The VS Code extension, which gives you the ability to quickly create FSD slices with simple customization
+* [FSD Slices Generator](https://marketplace.visualstudio.com/items?itemName=SbokyZahodi.fsd-slices) — The VS Code extension, which gives you the ability to quickly create FSD slices with simple customization
 
-* `Feature-Sliced Design Helper` — IntelliJ IDEA plugin that lets you quickly create layers, slices, and segments
+* [Feature-Sliced Design Helper](https://plugins.jetbrains.com/plugin/21638-feature-sliced-design-helper) — IntelliJ IDEA plugin that lets you quickly create layers, slices, and segments
 
 ## Development Server
 
