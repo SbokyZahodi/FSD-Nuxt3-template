@@ -1,1 +1,1 @@
-FSD pages slices
+FSD Pages layer
