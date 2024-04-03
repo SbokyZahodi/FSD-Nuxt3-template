@@ -6,8 +6,9 @@ export default defineNuxtConfig({
 
   imports: {
     dirs: [
-      'shared/composables',
-      'shared/utils',
+      'shared/api',
+      'shared/config',
+      'shared/ui',
       // You can specify here any folder from which you want to auto-import
     ],
   },
