@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   components: {
     dirs: [
       {
-        path: '~/shared/components',
+        path: '~/shared/ui',
         pathPrefix: false,
       },
 
