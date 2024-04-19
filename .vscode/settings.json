@@ -26,7 +26,7 @@
   ],
 
   "explorer.fileNesting.patterns": {
-    "package.json": "package-lock.json, yarn.lock, uno.config.ts, .gitattributes, .gitignore, .npmrc, tsconfig.json, eslint.config.js, README.md, app.config.ts, .env, nuxt.config.ts, yarn-error.log"
+    "package.json": "package-lock.json, yarn.lock, uno.config.ts, .gitattributes, .gitignore, .npmrc, tsconfig.json, eslint.config.js, README.md, app.config.ts, .env, nuxt.config.ts, yarn-error.log, bun.lockb"
   },
 
   // Enable eslint for all supported languages

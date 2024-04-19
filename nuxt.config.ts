@@ -6,25 +6,21 @@ export default defineNuxtConfig({
 
   imports: {
     dirs: [
-      'shared/api',
-      'shared/config',
-      'shared/ui',
-      // You can specify here any folder from which you want to auto-import
+      'shared/**',
+      // Auto-import all files from shared directory. You can specify only need paths | https://nuxt.com/docs/guide/directory-structure/composables
     ],
   },
 
   dir: {
-    pages: 'routes',
+    pages: 'app/routes',
   },
 
-  components: {
-    dirs: [
-      {
-        path: '~/shared/ui',
-        pathPrefix: false,
-      },
-
-    ],
-  },
+  components: [
+    {
+      path: '~/shared',
+      pathPrefix: false,
+      // Auto-import all components from shared directory.
+    },
+  ],
 
 })
