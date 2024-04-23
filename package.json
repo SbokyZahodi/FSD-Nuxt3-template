@@ -21,7 +21,7 @@
     "@unocss/nuxt": "^0.59.4",
     "@unocss/transformer-directives": "^0.59.4",
     "@unocss/transformer-variant-group": "^0.59.4",
-    "eslint": "^9.0.0",
+    "eslint": "^9.1.1",
     "nuxt": "^3.11.2",
     "typescript": "^5.4.5"
   }
