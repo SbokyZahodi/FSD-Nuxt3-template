@@ -1,1 +1,1 @@
-## All files from this folder and subfolders are auto-imported
+## All files from subfolders are auto-imported

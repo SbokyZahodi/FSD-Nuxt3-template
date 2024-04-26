@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 
   imports: {
     dirs: [
-      'shared/**',
+      'shared/*',
       // Auto-import all files from shared directory. You can specify only need paths | https://nuxt.com/docs/guide/directory-structure/composables
     ],
   },
