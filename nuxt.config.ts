@@ -4,6 +4,12 @@ export default defineNuxtConfig({
   modules: ['@unocss/nuxt'],
   css: ['@/app/global.css', '@unocss/reset/tailwind.css'],
 
+  srcDir: 'client',
+
+  future: {
+    compatibilityVersion: 4,
+  },
+
   imports: {
     dirs: [
       'shared/*',
@@ -22,5 +28,4 @@ export default defineNuxtConfig({
       // Auto-import all components from shared directory.
     },
   ],
-
 })
