@@ -12,6 +12,8 @@ Template for development on Nuxt 3 in the Feature-Sliced Design architecture
 
 ✅ ESLint (Preset by @antfu)
 
+✅ Pre-commit hooks
+
 ## Developer Experience
 
 * [FSD Slices Generator](https://marketplace.visualstudio.com/items?itemName=SbokyZahodi.fsd-slices) — The VS Code extension that gives you the ability to quickly create FSD slices

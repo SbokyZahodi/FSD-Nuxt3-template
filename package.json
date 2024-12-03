@@ -2,6 +2,7 @@
   "name": "nuxt-app",
   "type": "module",
   "private": true,
+  "packageManager": "npm@10.1.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -22,7 +23,15 @@
     "@unocss/transformer-directives": "^0.59.4",
     "@unocss/transformer-variant-group": "^0.59.4",
     "eslint": "^9.16.0",
+    "lint-staged": "^15.2.10",
     "nuxt": "^3.14.1592",
+    "simple-git-hooks": "^2.11.1",
     "typescript": "^5.7.2"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npm run lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   }
 }
